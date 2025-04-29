@@ -34,7 +34,6 @@ ingredients_list = st.multiselect(
     max_selections=5
 )
 
-ingredients_string = ''
 
 if ingredients_list:
   ingredients_string = ''
